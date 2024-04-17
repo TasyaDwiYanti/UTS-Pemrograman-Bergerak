@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/green"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIMHATIF"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_marginTop="55dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp" />
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/white"
+        android:hint="Nama"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="347dp"
+        android:layout_height="42dp"
+        android:padding="8dp"
+        android:minHeight="48dp"
+        android:layout_below="@id/editTextNama"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/white"
+        android:hint="NIM"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/editTextNIM"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="@color/dark_green"
+        android:layout_marginEnd="32dp"/>
+
+</RelativeLayout>
